@@ -1,0 +1,46 @@
+#main {
+    padding: 10px;
+}
+
+body {
+    font-family: "Open Sans";
+}
+
+.title h3 {
+    font-size: 20px;
+    font-weight: light;
+}
+
+a {
+    color: #555;
+    font-size: 13px;
+    text-decoration: underline;
+}
+.frame {
+  shape-rendering: crispEdges;
+  fill: none;
+  stroke: #aaa;
+}
+circle {
+  fill-opacity: 1;
+}
+
+circle.hidden {
+  fill-opacity: .5;
+}
+rect {
+    fill-opacity: .7;
+}
+rect.active {
+    fill-opacity: 1;
+}
+
+grid {
+    /*stroke: red;*/
+}
+text {
+    word-wrap: break-word;
+}
+.legend {
+    font-size: 12px;
+  }
